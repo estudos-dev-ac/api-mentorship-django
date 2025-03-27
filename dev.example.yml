@@ -6,3 +6,8 @@ services:
       - .:/code
     ports:
       - "8000:8000"
+
+
+ networks:
+  proxy:
+    external: true 
